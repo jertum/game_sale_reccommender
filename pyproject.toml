@@ -1,0 +1,20 @@
+[project]
+name = "game-sale-rec-proj"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Jeremy Tu",email = "dipper.lynx9827@eagereverest.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pandas (>=2.3.3,<3.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+packages = [{include = "game_sale_rec_proj", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
